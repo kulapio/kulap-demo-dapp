@@ -1,6 +1,6 @@
 # Demo Dapp
 
-This project was made with [KULAP SDK](https://github.com/kulapio/kulap-sdk).
+This project was made with [KULAP SDK](https://github.com/kulapio/kulap-sdk) & React.
 
 ## Features
 
