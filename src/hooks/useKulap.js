@@ -1,4 +1,3 @@
-import React, { useState, useReducer, useMemo, createContext, useEffect, useCallback } from 'react'
 import { Kulap } from "culap-sdk"
 
 const kulapSDK = new Kulap('access_key', window.ethereum)
