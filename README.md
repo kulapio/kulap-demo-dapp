@@ -5,7 +5,7 @@ This project was made with [KULAP SDK](https://github.com/kulapio/kulap-sdk).
 ## Features
 
 * Fetch the rates
-* Swap tokens with injected Web3 wallet (Metamask)
+* Swap tokens with injected Web3 wallet (Metamask) [TBD]
 
 ## How to run
 
