@@ -1,5 +1,5 @@
-import { useEffect, useState, useCallback, useMemo } from "react"
-import { Alert, Row, Col, Form, FormGroup, Label, Input, Spinner, Button } from "reactstrap"
+import { useEffect, useState, useCallback } from "react"
+import { Alert, Row, Col, FormGroup, Label, Input, Spinner, Button } from "reactstrap"
 import styled from "styled-components"
 import Logo from "../assets/logo.png"
 import useKulap from "../hooks/useKulap"
@@ -28,7 +28,7 @@ const MainPanel = styled(
     ({ className }) => {
 
         const { getNetworkId, listSymbols, getRate } = useKulap()
-
+        // eslint-disable-next-line
         const [networkId, setNetworkId] = useState()
         const [symbols, setSymbols] = useState([])
         // Token to swap
@@ -37,7 +37,7 @@ const MainPanel = styled(
         const [pairToken, setPairToken] = useState("DAI")
         const [baseTokenAmount, setBaseTokenAmount] = useState(0)
         const [pairTokenAmount, setpairTokenAmount] = useState(0)
-
+        // eslint-disable-next-line
         const [params, setParams] = useState()
         const [loading, setLoading] = useState(false)
 
@@ -54,7 +54,7 @@ const MainPanel = styled(
 
 
             })()
-
+        // eslint-disable-next-line
         }, [])
 
         const checkRates = useCallback(async () => {
@@ -70,7 +70,7 @@ const MainPanel = styled(
                 }
                 setLoading(false)
             }
-
+        // eslint-disable-next-line
         }, [baseToken, pairToken, baseTokenAmount])
 
         return (
