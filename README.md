@@ -1,6 +1,6 @@
 # Demo Dapp
 
-This project was made with [KULAP SDK](https://github.com/kulapio/kulap-sdk) & React to demonstrate how you can embedded the interface to KULAP decentralize exchange from any dapps or trading bots.
+This project was made with [KULAP SDK](https://github.com/kulapio/kulap-sdk) & React to demonstrates how you can embedded the interface to KULAP decentralize exchange from any dapps or trading bots.
 
 ## Live 
 
