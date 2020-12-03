@@ -4,7 +4,7 @@ This project was made with [KULAP SDK](https://github.com/kulapio/kulap-sdk) & R
 
 ## Live 
 
-https://pensive-thompson-5185d1.netlify.app/
+https://demo-sdk.kulap.io
 
 ## Features
 
