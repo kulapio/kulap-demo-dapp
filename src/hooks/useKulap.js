@@ -1,4 +1,4 @@
-import { Kulap } from "culap-sdk"
+import { Kulap } from "kulap-sdk"
 
 const kulapSDK = new Kulap('access_key', window.ethereum)
 
@@ -13,9 +13,7 @@ const useKulap = () => {
     }
 
     const getRate = async (baseToken, pairToken, amountIn) => {
-
-        const amountInWei = amountIn * (10 ** 18)
-        const params = await kulapSDK.getRate(baseToken, pairToken, amountInWei)
+        const params = await kulapSDK.getRate(baseToken, pairToken, amountIn)
         return params
     }
 
