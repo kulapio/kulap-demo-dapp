@@ -62,10 +62,10 @@ const MainPanel = styled(
                 setLoading(true)
                 const params = await getRate(baseToken, pairToken, baseTokenAmount)
                 setParams(params)
-                console.log("params --> ", params)
+
                 if (params && params.rate) {
                     const toAmount = (baseTokenAmount) * params.rate
-                    console.log("toAmount --> ", toAmount,  Web3.utils.fromWei(baseTokenAmount), params.rate)
+
                     setpairTokenAmount(toAmount)
                 }
                 setLoading(false)
@@ -77,7 +77,6 @@ const MainPanel = styled(
             <div className={className}>
                 <div className="card">
                     <Image src={Logo} />
-
                     {/* {networkId !== 1 && (
                         <Alert color="warning">Please connect to the Mainnet</Alert>
                     )} */}
